@@ -64,7 +64,7 @@ export const enginesController = async (ctx: Context) => {
   if (bingKey) availableEngines.push({ code: 'BING', name: 'Bing' });
   if (tavilyKey) availableEngines.push({ code: 'TAVILY', name: 'Tavily' });
   if (zhipuKey) availableEngines.push({ code: 'ZHIPU', name: 'Zhipu' });
-  if (exaKey) availableEngines.push({ code: 'EXA', name: 'Exa' });
+  if (exaKey) availableEngines.push({ code: 'EXA', name: 'Exa' }); // Exa - fast and accurate web search API for AI
   if (bochaKey) availableEngines.push({ code: 'BOCHA', name: 'Bocha' });
   // Sogou are always available
   availableEngines.push({ code: 'SOGOU', name: 'Sogou' });
